@@ -1,0 +1,32 @@
+🔹 1. Create new virtual environment
+
+In your project folder:
+
+python -m venv .venv
+🔹 2. Activate it (PowerShell)
+.\.venv\Scripts\Activate.ps1
+
+👉 You should see:
+
+(.venv) PS C:\...
+🔹 3. Fix pip (important step)
+python -m pip install --upgrade pip
+🔹 4. Install required libraries
+
+Based on your project:
+
+python -m pip install streamlit pandas yfinance plotly
+
+👉 If your project uses ML (likely):
+
+python -m pip install scikit-learn tensorflow
+🔹 5. Run your app
+
+Since it's a Streamlit app:
+
+streamlit run app.py
+🚀 If "streamlit not recognized" comes
+
+Use:
+
+python -m streamlit run app.py
