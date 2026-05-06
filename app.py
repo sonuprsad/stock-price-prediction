@@ -40,7 +40,7 @@ if 'login' not in st.session_state:
 
 st.title(f"📈 Welcome {st.session_state['user']}")
 
-data_source = st.sidebar.radio("Data Source", ["Upload CSV", "Live Data"])
+data_source = st.sidebar.radio("Data Source", ["Upload CSV",])
 
 df = None
 
