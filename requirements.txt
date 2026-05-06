@@ -2,6 +2,5 @@ streamlit
 yfinance
 pandas
 numpy
-matplotlib
+plotly
 scikit-learn
-tensorflow==2.15.0
