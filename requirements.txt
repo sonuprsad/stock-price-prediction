@@ -4,13 +4,4 @@ pandas
 numpy
 matplotlib
 scikit-learn
-tensorflow
-plotly
-
-streamlit
-yfinance
-pandas
-numpy
-matplotlib
-scikit-learn
 tensorflow==2.15.0
